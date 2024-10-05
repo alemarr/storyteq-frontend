@@ -32,6 +32,8 @@ To avoid limiting myself to doing unit testing with Jest, I also implemented som
 
 As I mentioned above, I implemented Typescript because of my personal preference, because there wasn't a required language in the assignment and like I also mentioned above about `@vueuse/core`, because of how I'm used to working these days.
 
+Also because of personal preference, I chose to use `yarn` instead of `npm`. I just think it's a better package manager.
+
 ## Project setup
 
 The setup instructions are for a local development environment. I removed the command to build the project because I think it serves no purpose in this particular case.
