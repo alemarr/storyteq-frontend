@@ -13,6 +13,7 @@ defineProps<{
         v-for="suggestion in suggestions"
         :key="suggestion"
         class="suggestions__suggestion"
+        data-cy="suggestions__suggestion"
       >
         {{ suggestion }}
       </div>
@@ -28,6 +29,7 @@ defineProps<{
   width: 400px;
   border-radius: 4px;
   background-color: white;
+  z-index: 100;
 }
 
 .suggestions__suggestion {

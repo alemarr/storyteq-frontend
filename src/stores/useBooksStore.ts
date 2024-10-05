@@ -44,7 +44,7 @@ export const useBooksStore = defineStore('books', () => {
 
     return books.filter((book) => book.title.toLowerCase()
       .startsWith(get(searchTerm).toLowerCase()))
-      .map((book) => book.title);
+      .map((book) => `${book.title} by ${book.author}`);
   });
 
   return {
