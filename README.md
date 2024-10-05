@@ -15,7 +15,7 @@ Here are some of the considerations I made when solving the challenge and why I 
 
 - I considered using `sass` for styling but decided to use `css` instead because the project is small and the styling is simple.
 - I wanted to give my component a little more styling, that's why I'm using FontAwesome icons. I considered not doing this because I thought it was a little overkill to add the packages I added to add only one icon, but I went with it.
-- I considered using [vue create](https://cli.vuejs.org/guide/creating-a-project.html), as suggested in the assigment, but that package is in Maintenance Mode. [The vue documentation suggests a different tool](https://vuejs.org/guide/scaling-up/tooling.html) for scaffolding and I used that one.
+- I considered using [vue create](https://cli.vuejs.org/guide/creating-a-project.html), as suggested in the assigment, but that package is in Maintenance Mode. [The Vue documentation suggests a different tool](https://vuejs.org/guide/scaling-up/tooling.html) for scaffolding and I used that one.
 - I thought of using composition to structure my pinia stores, to be able to reuse parts of them but I thought it was a bit too much for this solution.
 
 ## Solution
