@@ -11,7 +11,6 @@ library.add([
   faMagnifyingGlass,
 ]);
 
-// Setup Pinia
 const pinia = createPinia();
 
 createApp(App)
